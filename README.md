@@ -1,5 +1,5 @@
 # Space-Dance
-"SPACE DANCE" is a shoot 'em up game like River Raid written in C using sdl2 and sdl2-ttf.
+"SPACE DANCE" is a shoot 'em up game pretty similar to River Raid. It's written in C using sdl2 and sdl2-ttf.
 This was a project at AmirKabir University of Technology | Date : Jan - 2024 | Developer : Mohammad Javad Akbari, AUT-CE student
 
 
