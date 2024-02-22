@@ -9,7 +9,3 @@ How to play / complie:
 	<<< In file properties/permissions, check (allow execute) box. >>>
 
 	-> Windows: Download and copy sdl2 and sdl2-ttf files into your pc and complie using makefile.
-
-This is how it looks:
-
-![](https://github.com/Akbari-MJ/Space-Dance/blob/main/Src/Resources/runClip.gif)
