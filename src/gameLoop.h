@@ -1,7 +1,7 @@
 #ifndef SPACEDANCE_GAMELOOP_H
 #define SPACEDANCE_GAMELOOP_H
 
-#include "./Essentials.h"
+#include "./essentials.h"
 #include "./menu.h"
 
 // enemy essentials

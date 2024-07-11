@@ -3,7 +3,7 @@
 #define SDL_MAIN_HANDLED
 #include "./menu.h"
 #include "./gameLoop.h"
-#include "./Essentials.h"
+#include "./essentials.h"
 
 SDL_Rect ScreenRect = {0, 0, WIDTH, HEIGHT};
 SDL_Window *window = NULL;

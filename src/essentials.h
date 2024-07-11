@@ -15,20 +15,20 @@
 #define FPS 60 // 60 is native. don't set higher than 120.
 #define FRAME_TIME (1000/FPS)
 
-#define GAME_BGP "./Src/Resources/backGround.bmp"
-#define FONT_P "./Src/Resources/LaFamilia.ttf"
-#define LIST_P "./Src/Resources/scoresList.bin"
+#define GAME_BGP "./src/Resources/backGround.bmp"
+#define FONT_P "./src/Resources/LaFamilia.ttf"
+#define LIST_P "./src/Resources/scoresList.bin"
 
-#define JET_PP "./Src/Resources/Jet.bmp"
-#define MINE_PP "./Src/Resources/mine.bmp"
-#define DRONE_PP "./Src/Resources/drone.bmp"
-#define BOMB_PP "./Src/Resources/bomb.bmp"
-#define BOMBER_PP "./Src/Resources/bomber.bmp"
-#define FIGHTER_PP "./Src/Resources/fighter.bmp"
-#define SHIP_PP "./Src/Resources/ship.bmp"
-#define HEALTH_PP "./Src/Resources/health.bmp"
-#define BULLET_UP_PP "./Src/Resources/bulletUp.bmp"
-#define EXPLODE_PP "./Src/Resources/explode.bmp"
+#define JET_PP "./src/Resources/Jet.bmp"
+#define MINE_PP "./src/Resources/mine.bmp"
+#define DRONE_PP "./src/Resources/drone.bmp"
+#define BOMB_PP "./src/Resources/bomb.bmp"
+#define BOMBER_PP "./src/Resources/bomber.bmp"
+#define FIGHTER_PP "./src/Resources/fighter.bmp"
+#define SHIP_PP "./src/Resources/ship.bmp"
+#define HEALTH_PP "./src/Resources/health.bmp"
+#define BULLET_UP_PP "./src/Resources/bulletUp.bmp"
+#define EXPLODE_PP "./src/Resources/explode.bmp"
 
 // General Essentials
 extern SDL_Window *window;
