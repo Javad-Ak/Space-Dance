@@ -22,7 +22,7 @@ SPACE DANCE is a shoot'em up game similar to River Raid. It's written in C using
 
 ## Screenshots
 
-<img width="1500" alt="login" src="https://github.com/Javad-Ak/Space-Dance/tree/main/document/home.png"> <img width="1500" alt="https://github.com/Javad-Ak/Space-Dance/tree/main/document/gameplay.png">
+<img width="1500" alt="home" src="https://github.com/Javad-Ak/Space-Dance/blob/main/document/screenshots/home.png"> <img width="1500" alt="gameplay" src="https://github.com/Javad-Ak/Space-Dance/blob/main/document/screenshots/gameplay.png">
 
 ## Technologies
 
