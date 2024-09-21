@@ -26,14 +26,8 @@ SPACE DANCE is a shoot'em up game similar to River Raid. It's written in C using
 
 ## Technologies
 
-- Java
-- JavaFX
-- SQLite
-- HTTP Server
-- JWT authentication
-- MVC Architecture
-- JSON serialization
-- DAO design pattern
+- C
+- SDL2
 
 ## License
 
