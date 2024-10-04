@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Space-Dance" targetName="Space-Dance" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fcd176fa-e503-4c94-af0e-b744cb8faba3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Space-Dance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/essentials.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/essentials.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gameLoop.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameLoop.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gameLoop.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/gameLoop.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/menu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/Jet.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Jet.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/LaFamilia.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/LaFamilia.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/backGround.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/backGround.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/bomb.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/bomb.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/bomber.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/bomber.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/bulletUp.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/bulletUp.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/drone.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/drone.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/explode.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/explode.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/fighter.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fighter.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/health.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/health.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/mine.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mine.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/runClip.gif" beforeDir="false" afterPath="$PROJECT_DIR$/resources/runClip.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scoresList.bin" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scoresList.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/ship.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ship.bmp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Javad-Ak&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Javad-Ak/Space-Dance.git&quot;,
+    &quot;accountId&quot;: &quot;74b8cf38-a870-4a0b-9b0a-98505fb65195&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/essentials.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/gameLoop.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/menu.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/menu.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="2.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2mzTCxoGxq6lCDdun1gOhkSkgdg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.Space-Dance.executor": "Run",
+    "CMake Debug.Space-Dance.executor": "Debug",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/javad/CLionProjects/Space-Dance",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/include" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.Space-Dance">
+    <configuration name="Space-Dance" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Space-Dance" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Space-Dance" TARGET_NAME="Space-Dance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Space-Dance" RUN_TARGET_NAME="Space-Dance">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Space-Dance" />
+      <item itemvalue="CMake Debug.Space-Dance" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake Debug.Space-Dance" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcd176fa-e503-4c94-af0e-b744cb8faba3" name="Changes" comment="" />
+      <created>1728078282170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728078282170</updated>
+      <workItem from="1728078283467" duration="646000" />
+      <workItem from="1728078939518" duration="4732000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="CMakeExceptionBreakpoint" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

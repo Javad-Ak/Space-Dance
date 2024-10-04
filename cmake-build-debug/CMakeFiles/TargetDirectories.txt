@@ -1,0 +1,3 @@
+/home/javad/CLionProjects/Space-Dance/cmake-build-debug/CMakeFiles/Space-Dance.dir
+/home/javad/CLionProjects/Space-Dance/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/javad/CLionProjects/Space-Dance/cmake-build-debug/CMakeFiles/rebuild_cache.dir
