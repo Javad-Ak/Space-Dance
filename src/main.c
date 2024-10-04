@@ -1,9 +1,9 @@
 // "SPACE DANCE" Game is a project at AUT - CE | Date : Jan - 2024 | Developer : Mohammad Javad Akbari 40231005
 
 #define SDL_MAIN_HANDLED
-#include "./menu.h"
-#include "./gameLoop.h"
-#include "./essentials.h"
+#include "menu.h"
+#include "gameLoop.h"
+#include "essentials.h"
 
 SDL_Rect ScreenRect = {0, 0, WIDTH, HEIGHT};
 SDL_Window *window = NULL;

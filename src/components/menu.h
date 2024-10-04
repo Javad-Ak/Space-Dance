@@ -1,8 +1,8 @@
 #ifndef SPACEDANCE_MENU_H
 #define SPACEDANCE_MENU_H
 
-#include "./gameLoop.h"
-#include "./essentials.h"
+#include "gameLoop.h"
+#include "essentials.h"
 
 void setupMenu();
 

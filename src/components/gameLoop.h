@@ -1,8 +1,8 @@
 #ifndef SPACEDANCE_GAMELOOP_H
 #define SPACEDANCE_GAMELOOP_H
 
-#include "./essentials.h"
-#include "./menu.h"
+#include "essentials.h"
+#include "menu.h"
 
 // enemy essentials
 enum enemyType {

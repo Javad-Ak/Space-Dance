@@ -3,7 +3,7 @@
 ## Description
 
 SPACE DANCE is a shoot'em up game similar to River Raid. It's written in C using SDL2.
-<br/>This was the project of basic programming course at AmirKabir University of Technology (@AUT-CE) 
+<br/>This was the project of basic programming course at AmirKabir University of Technology (@AUT-CE)
 <br/> Author : Mohammad Javad Akbari (Jan 2024)
 
 ## Table of Contents
@@ -16,9 +16,7 @@ SPACE DANCE is a shoot'em up game similar to River Raid. It's written in C using
 
 ## Installation
 
-- Linux: Sudo install sdl2 and sdl2-ttf then complie using makefile. Then, In file properties/permissions, check (allow execution) box.
-
-- Windows: Download and copy sdl2 and sdl2-ttf files into your pc and complie using makefile.
+- Linux: Sudo install sdl2 and sdl2-ttf then use cmake to build the project.
 
 ## Screenshots
 
@@ -31,7 +29,8 @@ SPACE DANCE is a shoot'em up game similar to River Raid. It's written in C using
 
 ## License
 
-Space Dance is licensed under the MIT License. You are free to modify and distribute the project according to the terms of the license.
+Space Dance is licensed under the MIT License. You are free to modify and distribute the project according to the terms
+of the license.
 
 ## Contribution
 
