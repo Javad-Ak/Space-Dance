@@ -16,7 +16,13 @@ SPACE DANCE is a shoot'em up game similar to River Raid. It's written in C using
 
 ## Installation
 
-- Linux: Sudo install sdl2 and sdl2-ttf then use cmake to build the project.
+- Install sdl2 and sdl2-ttf then use cmake to build the project.
+In linux simply run:
+```
+  sudo apt install libsdl2-dev libsdl2-ttf-dev
+```
+
+- Use cmake to run the project OR use Clion IDE.
 
 ## Screenshots
 
