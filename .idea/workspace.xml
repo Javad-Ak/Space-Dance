@@ -24,31 +24,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd176fa-e503-4c94-af0e-b744cb8faba3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Space-Dance.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake/FindSDL2.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake/FindSDL2_ttf.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/essentials.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/essentials.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gameLoop.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameLoop.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gameLoop.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/gameLoop.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/menu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/Jet.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Jet.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/LaFamilia.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/LaFamilia.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/backGround.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/backGround.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/bomb.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/bomb.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/bomber.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/bomber.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/bulletUp.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/bulletUp.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/drone.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/drone.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/explode.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/explode.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/fighter.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fighter.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/health.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/health.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/mine.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mine.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/runClip.gif" beforeDir="false" afterPath="$PROJECT_DIR$/resources/runClip.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scoresList.bin" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scoresList.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/ship.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ship.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-484684e42f3d31b16e8a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0ceaf75e0bd88a99bbcf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6a0e84fa889c7fe78ae7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-04T23-12-46-0062.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Space-Dance-Debug-f5c60e8cdb5232c69200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Space-Dance.dir/src/components/gameLoop.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Space-Dance.dir/src/components/menu.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Space-Dance.dir/src/gameLoop.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Space-Dance.dir/src/gameLoop.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Space-Dance.dir/src/menu.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Space-Dance.dir/src/menu.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/essentials.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/essentials.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/scoresList.bin" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scoresList.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +107,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/javad/CLionProjects/Space-Dance",
+    "last_opened_file_path": "/home/javad/CLionProjects/Space-Dance/include",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -121,6 +119,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -130,15 +130,15 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Space-Dance">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Space-Dance" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
     <configuration name="Space-Dance" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Space-Dance" TARGET_NAME="Space-Dance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Space-Dance" RUN_TARGET_NAME="Space-Dance">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -162,7 +162,10 @@
       <option name="presentableId" value="Default" />
       <updated>1728078282170</updated>
       <workItem from="1728078283467" duration="646000" />
-      <workItem from="1728078939518" duration="4732000" />
+      <workItem from="1728078939518" duration="6715000" />
+      <workItem from="1728085671272" duration="1111000" />
+      <workItem from="1728331272389" duration="6000" />
+      <workItem from="1728331311629" duration="5606000" />
     </task>
     <servers />
   </component>

@@ -1154,28 +1154,56 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_SDL2",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Details about finding Threads"
+					"value" : "Details about finding SDL2"
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[TRUE][v()]"
+			"value" : "[/usr/lib/x86_64-linux-gnu/libSDL2main.a][/usr/include/SDL2][v2.0.20()]"
 		},
 		{
-			"name" : "SDL2-ttf_DIR",
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_SDL2_ttf",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SDL2-ttf."
+					"value" : "Details about finding SDL2_ttf"
 				}
 			],
-			"type" : "PATH",
-			"value" : "SDL2-ttf_DIR-NOTFOUND"
+			"type" : "INTERNAL",
+			"value" : "[/usr/lib/x86_64-linux-gnu/libSDL2_ttf.so][/usr/include/SDL2][v2.0.18()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_SDL2main",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding SDL2main"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/lib/x86_64-linux-gnu/libSDL2main.a][/usr/include/SDL2][v2.0.20()]"
+		},
+		{
+			"name" : "SDL2MAIN_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Where the SDL2main library can be found"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libSDL2main.a"
 		},
 		{
 			"name" : "SDL2_DIR",
@@ -1190,6 +1218,134 @@
 			"value" : "/usr/lib/x86_64-linux-gnu/cmake/SDL2"
 		},
 		{
+			"name" : "SDL2_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Where the SDL2 headers can be found"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include/SDL2"
+		},
+		{
+			"name" : "SDL2_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Where the SDL2 Library can be found"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libSDL2.so"
+		},
+		{
+			"name" : "SDL2_NO_DEFAULT_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Disable search SDL2 Library in default path"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SDL2_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Custom SDL2 Library path"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "SDL2_TTF_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Where the SDL2_ttf headers can be found"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include/SDL2"
+		},
+		{
+			"name" : "SDL2_TTF_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Where the SDL2_ttf Library can be found"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libSDL2_ttf.so"
+		},
+		{
+			"name" : "SDL2_TTF_NO_DEFAULT_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Disable search SDL2_ttf Library in default path"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SDL2_TTF_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Custom SDL2_ttf Library path"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
 			"name" : "SDL2_ttf_DIR",
 			"properties" : 
 			[
@@ -1200,42 +1356,6 @@
 			],
 			"type" : "PATH",
 			"value" : "SDL2_ttf_DIR-NOTFOUND"
-		},
-		{
-			"name" : "SDLMAIN_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "SDLMAIN_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "SDL_INCLUDE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a file."
-				}
-			],
-			"type" : "PATH",
-			"value" : "SDL_INCLUDE_DIR-NOTFOUND"
-		},
-		{
-			"name" : "SDL_LIBRARY_TEMP",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "SDL_LIBRARY_TEMP-NOTFOUND"
 		},
 		{
 			"name" : "SDL_TTF_INCLUDE_DIR",

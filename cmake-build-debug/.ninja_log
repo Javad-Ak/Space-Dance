@@ -1,7 +1,6 @@
 # ninja log v6
-4	258	1728081691393026183	CMakeFiles/Space-Dance.dir/src/components/menu.c.o	c430cb7ed7c833fa
-1	277	1728082609672114633	CMakeFiles/Space-Dance.dir/src/menu.c.o	983f7c199d856880
-3	285	1728081691392026183	CMakeFiles/Space-Dance.dir/src/components/gameLoop.c.o	957954baf32cce6
-0	276	1728082609672114633	CMakeFiles/Space-Dance.dir/src/main.c.o	65940ad61feedb8d
-0	25	1728083566055206752	build.ninja	77df51750b074de5
-1	329	1728082609672114633	CMakeFiles/Space-Dance.dir/src/gameLoop.c.o	d8540fe6ec8d5b9e
+1	299	1728336089928989106	CMakeFiles/Space-Dance.dir/src/menu.c.o	358382ea7401672a
+1	290	1728336089928989106	CMakeFiles/Space-Dance.dir/src/main.c.o	85f892bba4db60b7
+0	35	1728336918491228025	build.ninja	77df51750b074de5
+1	341	1728336089928989106	CMakeFiles/Space-Dance.dir/src/gameLoop.c.o	775d1b9bbf3e470d
+341	411	1728336090268992408	Space-Dance	d5917f28ab0a7c33

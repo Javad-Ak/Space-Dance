@@ -215,23 +215,38 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//The directory containing a CMake configuration file for SDL-ttf.
-SDL-ttf_DIR:PATH=SDL-ttf_DIR-NOTFOUND
-
-//The directory containing a CMake configuration file for SDL2-ttf.
-SDL2-ttf_DIR:PATH=SDL2-ttf_DIR-NOTFOUND
+//Where the SDL2main library can be found
+SDL2MAIN_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libSDL2main.a
 
 //The directory containing a CMake configuration file for SDL2.
 SDL2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SDL2
 
+//Where the SDL2 headers can be found
+SDL2_INCLUDE_DIR:PATH=/usr/include/SDL2
+
+//Where the SDL2 Library can be found
+SDL2_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libSDL2.so
+
+//Disable search SDL2 Library in default path
+SDL2_NO_DEFAULT_PATH:BOOL=OFF
+
+//Custom SDL2 Library path
+SDL2_PATH:STRING=
+
+//Where the SDL2_ttf headers can be found
+SDL2_TTF_INCLUDE_DIR:PATH=/usr/include/SDL2
+
+//Where the SDL2_ttf Library can be found
+SDL2_TTF_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libSDL2_ttf.so
+
+//Disable search SDL2_ttf Library in default path
+SDL2_TTF_NO_DEFAULT_PATH:BOOL=OFF
+
+//Custom SDL2_ttf Library path
+SDL2_TTF_PATH:STRING=
+
 //The directory containing a CMake configuration file for SDL2_ttf.
 SDL2_ttf_DIR:PATH=SDL2_ttf_DIR-NOTFOUND
-
-//Path to a library.
-SDLMAIN_LIBRARY:FILEPATH=SDLMAIN_LIBRARY-NOTFOUND
-
-//Path to a file.
-SDL_INCLUDE_DIR:PATH=SDL_INCLUDE_DIR-NOTFOUND
 
 //Path to a file.
 SDL_TTF_INCLUDE_DIR:PATH=SDL_TTF_INCLUDE_DIR-NOTFOUND
@@ -396,10 +411,30 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding Threads
-FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
-//Path to a library.
-SDL_LIBRARY_TEMP:INTERNAL=SDL_LIBRARY_TEMP-NOTFOUND
+//Details about finding SDL2
+FIND_PACKAGE_MESSAGE_DETAILS_SDL2:INTERNAL=[/usr/lib/x86_64-linux-gnu/libSDL2main.a][/usr/include/SDL2][v2.0.20()]
+//Details about finding SDL2_ttf
+FIND_PACKAGE_MESSAGE_DETAILS_SDL2_ttf:INTERNAL=[/usr/lib/x86_64-linux-gnu/libSDL2_ttf.so][/usr/include/SDL2][v2.0.18()]
+//Details about finding SDL2main
+FIND_PACKAGE_MESSAGE_DETAILS_SDL2main:INTERNAL=[/usr/lib/x86_64-linux-gnu/libSDL2main.a][/usr/include/SDL2][v2.0.20()]
+//ADVANCED property for variable: SDL2MAIN_LIBRARY
+SDL2MAIN_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SDL2_INCLUDE_DIR
+SDL2_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SDL2_LIBRARY
+SDL2_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SDL2_NO_DEFAULT_PATH
+SDL2_NO_DEFAULT_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SDL2_PATH
+SDL2_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SDL2_TTF_INCLUDE_DIR
+SDL2_TTF_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SDL2_TTF_LIBRARY
+SDL2_TTF_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SDL2_TTF_NO_DEFAULT_PATH
+SDL2_TTF_NO_DEFAULT_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SDL2_TTF_PATH
+SDL2_TTF_PATH-ADVANCED:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 
