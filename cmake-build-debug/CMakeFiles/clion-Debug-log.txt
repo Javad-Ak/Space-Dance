@@ -1,6 +1,0 @@
-/home/javad/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/javad/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/javad/CLionProjects/Space-Dance -B /home/javad/CLionProjects/Space-Dance/cmake-build-debug
--- Found SDL2: /usr/lib/x86_64-linux-gnu/libSDL2.so (found version "2.0.20")
--- Found SDL2: /usr/lib/x86_64-linux-gnu/libSDL2main.a (found version "2.0.20")
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /home/javad/CLionProjects/Space-Dance/cmake-build-debug
