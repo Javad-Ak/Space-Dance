@@ -32,7 +32,7 @@ cmake --build . --target run
 ## Screenshots
 
 ![menu](https://github.com/Javad-Ak/Space-Dance/blob/main/document/screenshots/home.png "menu")
-![gameplay](https://github.com/Javad-Ak/Space-Dance/blob/main/document/screenshots/home.png "gameplay")
+![gameplay](https://github.com/Javad-Ak/Space-Dance/blob/main/document/gif/runClip.gif "gameplay")
 
 
 ## Technologies
