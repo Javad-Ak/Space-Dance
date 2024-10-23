@@ -15,20 +15,20 @@
 #define FPS 60 // 60 fps is default. Don't set higher than 120.
 #define FRAME_TIME (1000/FPS)
 
-#define GAME_BGP "../resources/backGround.bmp"
-#define FONT_P "../resources/LaFamilia.ttf"
-#define LIST_P "../resources/scoresList.bin"
+#define GAME_BGP "../assets/backGround.bmp"
+#define FONT_P "../assets/LaFamilia.ttf"
+#define LIST_P "../assets/scoresList.bin"
 
-#define JET_PP "../resources/Jet.bmp"
-#define MINE_PP "../resources/mine.bmp"
-#define DRONE_PP "../resources/drone.bmp"
-#define BOMB_PP "../resources/bomb.bmp"
-#define BOMBER_PP "../resources/bomber.bmp"
-#define FIGHTER_PP "../resources/fighter.bmp"
-#define SHIP_PP "../resources/ship.bmp"
-#define HEALTH_PP "../resources/health.bmp"
-#define BULLET_UP_PP "../resources/bulletUp.bmp"
-#define EXPLODE_PP "../resources/explode.bmp"
+#define JET_PP "../assets/Jet.bmp"
+#define MINE_PP "../assets/mine.bmp"
+#define DRONE_PP "../assets/drone.bmp"
+#define BOMB_PP "../assets/bomb.bmp"
+#define BOMBER_PP "../assets/bomber.bmp"
+#define FIGHTER_PP "../assets/fighter.bmp"
+#define SHIP_PP "../assets/ship.bmp"
+#define HEALTH_PP "../assets/health.bmp"
+#define BULLET_UP_PP "../assets/bulletUp.bmp"
+#define EXPLODE_PP "../assets/explode.bmp"
 
 // General Essentials
 extern SDL_Window *window;
