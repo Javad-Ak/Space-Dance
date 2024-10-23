@@ -23,7 +23,8 @@ target_include_directories(${PROJECT_NAME} PRIVATE assets)
 # Add SDL2 libraries.
 find_package(SDL2 REQUIRED)
 find_package(SDL2_ttf REQUIRED)
-target_link_libraries(${PROJECT_NAME} SDL2::Main SDL2::TTF)
+find_package(SDL2_mixer REQUIRED)
+target_link_libraries(${PROJECT_NAME} SDL2::Main SDL2::TTF SDL2::Mixer)
 
 # Add run command.
 add_custom_target(

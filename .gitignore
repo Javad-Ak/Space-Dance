@@ -4,6 +4,10 @@
 build
 SpaceDance
 Space-Dance
+Space_Dance
+SpaceDance.exe
+Space-Dance.exe
+Space_Dance.exe
 
 CMakeLists.txt.user
 CMakeCache.txt

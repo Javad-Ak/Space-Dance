@@ -7,6 +7,7 @@
 #include <string.h>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_ttf.h>
+#include <SDL2/SDL_mixer.h>
 
 #define TRUE 1
 #define FALSE 0
@@ -18,6 +19,7 @@
 #define GAME_BGP "../assets/backGround.bmp"
 #define FONT_P "../assets/LaFamilia.ttf"
 #define LIST_P "../assets/scoresList.bin"
+#define MUSIC_P "../assets/music.mp3"
 
 #define JET_PP "../assets/Jet.bmp"
 #define MINE_PP "../assets/mine.bmp"

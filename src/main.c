@@ -5,15 +5,19 @@
 #include "gameLoop.h"
 #include "essentials.h"
 
+
 SDL_Rect ScreenRect = {0, 0, WIDTH, HEIGHT};
 SDL_Window *window = NULL;
 SDL_Renderer *renderer = NULL;
+Mix_Music* backgroundMusic = NULL;
 int isMenuActive = FALSE, isGameActive = FALSE, LastTick;
 
 int init();
 
 void ShutDown();
 
+
+// main gameloop implementation
 int main() {
     atexit(ShutDown);
     isMenuActive = init();
@@ -39,6 +43,7 @@ int main() {
     return 0;
 }
 
+// Initialize SDL, sound and window
 int init() {
     TTF_Init();
     if (SDL_Init(SDL_INIT_VIDEO) != 0) {
@@ -53,6 +58,16 @@ int init() {
 
     if (SDL_Init(SDL_INIT_TIMER) != 0) {
         fprintf(stderr, "window error");
+        return FALSE;
+    }
+
+    if (SDL_Init(SDL_INIT_AUDIO) < 0) {
+        printf("SDL could not initialize! SDL_Error: %s\n", SDL_GetError());
+        return FALSE;
+    }
+
+    if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0) {
+        printf("SDL_mixer could not initialize! SDL_mixer Error: %s\n", Mix_GetError());
         return FALSE;
     }
 
@@ -75,9 +90,19 @@ int init() {
         return FALSE;
     }
 
+    backgroundMusic = Mix_LoadMUS(MUSIC_P);
+    if (backgroundMusic == NULL) {
+        printf("Failed to load background music! SDL_mixer Error: %s\n", Mix_GetError());
+        return FALSE;
+    }
+
+    // Play the music indefinitely (-1 means loop)
+    Mix_PlayMusic(backgroundMusic, -1);
+
     return TRUE;
 }
 
+// Destroy game window
 void ShutDown() {
     if (tmpMSGT != NULL) SDL_DestroyTexture(tmpMSGT);
     if (tmpMSGS != NULL) SDL_FreeSurface(tmpMSGS);
@@ -90,5 +115,7 @@ void ShutDown() {
 
     TTF_CloseFont(mFont);
     TTF_Quit();
+    Mix_FreeMusic(backgroundMusic);
+    Mix_CloseAudio();
     SDL_Quit();
 }
