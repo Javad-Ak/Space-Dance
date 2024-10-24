@@ -5,10 +5,17 @@
 #include "menu.h"
 
 // enemy essentials
-enum enemyType {
-    bomberT, fighterT, shipT, mineT, droneT, explodeT
+enum enemyType
+{
+    bomberT,
+    fighterT,
+    shipT,
+    mineT,
+    droneT,
+    explodeT
 };
-typedef struct node {
+typedef struct node
+{
     struct node *next;
     enum enemyType type;
     SDL_Rect enemyRect;
@@ -23,10 +30,11 @@ void setupGame();
 
 void renderGame();
 
+void renderMovingBackground();
+
 void processGame();
 
 void updateGame();
-
 
 void updateMine(enemyStruct *current);
 
@@ -39,7 +47,6 @@ void updateFighter(enemyStruct *current);
 void updateShip(enemyStruct *current);
 
 void updateExplode(enemyStruct *current);
-
 
 void SpawnEnemy();
 
@@ -58,7 +65,6 @@ void dropBomber();
 void dropDrone();
 
 void dropMine();
-
 
 enemyStruct *addEnemyNode();
 
