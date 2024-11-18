@@ -18,7 +18,7 @@ SDL_Texture *tmpMSGT, *GameBGT;
 void setupMenu() {
     mFont = TTF_OpenFont(FONT_P, 100);
 
-    GameBGS = SDL_LoadBMP(GAME_BGP);
+    GameBGS = IMG_Load(GAME_BGP);
     GameBGT = SDL_CreateTextureFromSurface(renderer, GameBGS);
 }
 
